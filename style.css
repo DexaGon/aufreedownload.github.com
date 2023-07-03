@@ -1,0 +1,208 @@
+* {
+    text-decoration: none;
+    margin: 0px;
+    padding: 0px;
+}
+
+body {
+    background: #6e94ca;
+    margin: 0px;
+    padding: 0px;
+    font-family: 'Open Sans',sans-serif;
+}
+
+.wrapper {
+    width: 1100px;
+    margin: auto;
+    position: relative;
+}
+
+.logo a {
+    font-size: 50px;
+    font-weight: 800px;
+    float: left;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    color: #001C30;
+    background: #FFFFFF;
+}
+
+.menu {
+    float: right;
+}
+
+nav {
+    width: 100%;
+    margin: auto;
+    display: flex;
+    line-height: 80px;
+    position: sticky;
+    position: -webkit-sticky;
+    z-index: 1;
+    top: 0;
+    background: #ffffff;
+    border-bottom: 1px solid #001C30;
+}
+
+nav ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+}
+
+nav ul li {
+    float: left;
+}
+
+nav ul li a {
+    color: black;
+    font-weight: bold;
+    text-align: center;
+    padding: 0px 16px 0px 16px;
+    text-decoration: none;
+    background-color: #FFFFFF;
+}
+
+nav ul li a:hover {
+    text-decoration: underline;
+}
+
+section {
+    margin: auto;
+    display: flex;
+    margin-bottom: 50px;
+}
+
+.collumn {
+    margin-top: 50px;
+    margin-bottom: 50px;
+}
+
+.collumn .description {
+    font-size: 20px;
+    font-weight: bold;
+    font-family: 'comic sans ms';
+    color: #001C30;
+}
+
+.collumn .About {
+    font-size: 35px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 800;
+    margin-bottom: 20px;
+    color:#11212d;
+    width: 100%;
+    line-height: 50px;
+    text-align: center;
+}
+
+.collumn .Bold {
+    font-size: 25px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-weight: 800;
+    margin-bottom: 20px;
+    color: #001C30;
+    width: 100%;
+    line-height: 50px;
+    margin: auto;
+}
+
+.collumn .Boldcenter {
+    font-size: 40px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-weight: 800;
+    margin-bottom: 20px;
+    color: #001C30;
+    width: 100%;
+    line-height: 50px;
+    margin: auto;
+    text-align: center;
+}
+
+.collumn .img1 {
+    margin-top: 15px;
+    margin-bottom: 15px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 90%;
+}
+
+h2 {
+    font-family: 'comic sans ms';
+    font-weight: 800;
+    font-size: 45px;
+    margin-bottom: 20px;
+    color: #001C30;
+    width: 100%;
+    line-height: 50px;
+}
+
+a.blue-button {
+    background: #4F709C;
+    border-radius: 20px;
+    margin-top: 20px;
+    padding: 15px 20px 15px 20px;
+    color: #FFFFFF;
+    cursor: pointer;
+    font-weight: bold;
+}
+
+a.blue-button:hover {
+    font-style: italic;
+    color: #000000;
+    background: #2d89f3;
+    text-decoration: none;
+}
+
+a.downloadaubutton {
+    background: #549c4f;
+    border-radius: 20px;
+    margin-top: 20px;
+    padding: 15px 20px 15px 20px;
+    color: #FFFFFF;
+    cursor: pointer;
+    font-weight: bold;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 90%;
+    text-align: center;
+}
+
+a.downloadaubutton:hover {
+    font-style: italic;
+    color: #000000;
+    background: #5cf667;
+    text-decoration: none;
+}
+
+.collumn .Dark {
+    font-size: 15px;
+    font-weight: bold;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    color: #262b2e;
+}
+
+.collumn .link {
+    font-weight: bold;
+    color: #157bef;
+}
+
+.collumn .link:hover {
+    text-decoration: underline;
+    font-style: italic;
+}
+
+.AboutC {
+    background: #59839b;
+    margin: 100px -50px 100px -50px;
+}
+
+#copyright {
+    text-align: center;
+    width: 100%;
+    padding: 50px 0px 50px 0px;
+    margin-top: 50px;
+}
+
