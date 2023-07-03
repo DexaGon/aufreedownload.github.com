@@ -5,7 +5,7 @@
 }
 
 body {
-    background: #6e94ca;
+    background: #d2deee;
     margin: 0px;
     padding: 0px;
     font-family: 'Open Sans',sans-serif;
@@ -96,12 +96,12 @@ section {
     text-align: center;
 }
 
-.collumn .Bold {
+.Bold {
     font-size: 25px;
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
     font-weight: 800;
     margin-bottom: 20px;
-    color: #001C30;
+    color: #01080d;
     width: 100%;
     line-height: 50px;
     margin: auto;
@@ -184,7 +184,7 @@ a.downloadaubutton:hover {
     color: #262b2e;
 }
 
-.collumn .link {
+.link {
     font-weight: bold;
     color: #157bef;
 }
@@ -195,8 +195,38 @@ a.downloadaubutton:hover {
 }
 
 .AboutC {
-    background: #59839b;
+    background: #cbd5db;
     margin: 100px -50px 100px -50px;
+}
+
+.comment-box {
+    width: 50%;
+    border: 1px solid #ccc;
+    margin: 50px 0;
+    padding: 10px 20px;
+    font-family: 'poppins', sans-serif;
+    border-radius: 5px;
+    margin-left: 25%;
+    margin-top: 80px;
+    box-shadow: 0px 0px 10px 1px rgb(165, 165, 165);
+}
+
+.comment-box p {
+    text-align: left;
+    font-size: 28px;
+    color: #777;
+}
+
+.comment-form input, .comment-form textarea {
+    width: 100%;
+    padding: 10px;
+    margin: 5px 0;
+    box-sizing: border-box;
+    outline: none;
+    font-size: 18px;
+    font-family: 'poppins', sans-serif;
+    border: 1px solid #ddd;
+    color: #777;
 }
 
 #copyright {
@@ -204,5 +234,6 @@ a.downloadaubutton:hover {
     width: 100%;
     padding: 50px 0px 50px 0px;
     margin-top: 50px;
+    background-color: #cbd5db;
 }
 
